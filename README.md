@@ -178,7 +178,35 @@ All connections, from browser to backend, backend to broker and bracelet to brok
 
 ## Repository layout
 
-[TODO: add once the repository structure is final]
+```text
+
+├── Child wereable.kicad_pro / .kicad_sch / .kicad_pcb   KiCad project
+├── fp-lib-table, sym-lib-table                          Project library tables
+├── 3D models/                                           STEP models for the parts
+├── Footprint/                                           Custom footprints (.pretty libraries)
+├── Symbol/                                              Custom symbols (.kicad_sym)
+├── Child wereble Fabrication files/
+│   ├── Bom.csv, designators.csv, CPL_positions.csv      Assembly data
+│   ├── Child wereable Bill of material.csv              Full bill of materials
+│   ├── netlist.ipc                                      IPC netlist
+│   ├── Child_wereable.zip                               (Gerbers) 
+│   ├── PCB 3D model/                                    Board STEP model
+│   └── PDFs/                                            Front/back fab and schematic PDFs
+├── Docs/
+│   ├── Child Wearable System Architecture.pdf           System architecture document
+│   ├── System-architecture-clarifications.pdf           
+│   ├── Schematic.pdf                                    Schematic (PDF)
+│   ├── Child wereable Schematic.svg                     Schematic (SVG, shown in this README)
+│   ├── Front Fab.pdf, Back Fab.pdf                      Front and back fabrication drawings
+│   ├── Front of wereable watch.png                      Front PCB render
+│   ├── Back of wereable watch .png                      Back PCB render
+│   ├── 1.69 inch display.png                            Display photo
+│   ├── Devices.jpeg                                     Dashboard: devices page
+│   ├── Broadcast child.jpeg                             Dashboard: broadcast page
+│   ├── dashboard.png                                    Dashboard screenshot
+│   └── Childcare website screnshot.png                  Childcare website screenshot
+└── README.md
+```
 
 ## Author
 
