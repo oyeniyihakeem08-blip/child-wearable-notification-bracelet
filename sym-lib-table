@@ -1,0 +1,8 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "BQ27426YZFR") (type "KiCad") (uri "${KIPRJMOD}/Symbol/BQ27426YZFR  2026-07-05_12-33-03.kicad_sym") (options "") (descr "IC FUEL GAUGE LI-ION"))
+	(lib (name "FPC connector") (type "KiCad") (uri "${KIPRJMOD}/Symbol/connector  2026-07-05_10-52-45.kicad_sym") (options "") (descr "FPC connector"))
+	(lib (name "MAX17048") (type "KiCad") (uri "${KIPRJMOD}/Symbol/fuel gauge 2026-07-06_07-13-00.kicad_sym") (options "") (descr "Fuel gauge"))
+	(lib (name "TS-1187A-B-A-") (type "KiCad") (uri "${KIPRJMOD}/Symbol/switch   TS-1187A-B-A-B.kicad_sym") (options "") (descr "switch"))
+	(lib (name "TLV3691IDCKR") (type "KiCad") (uri "${KIPRJMOD}/Symbol/comparator  TLV3691IDCKR.kicad_sym") (options "") (descr ""))
+)

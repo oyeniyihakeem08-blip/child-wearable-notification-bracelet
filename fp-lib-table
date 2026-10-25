@@ -1,0 +1,8 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "BQ27426YZFR") (type "KiCad") (uri "${KIPRJMOD}/Footprint/BQ27426YZFR battery gauge.pretty") (options "") (descr "IC gauge"))
+	(lib (name "Display connector") (type "KiCad") (uri "${KIPRJMOD}/Footprint/connector footprints.pretty") (options "") (descr ""))
+	(lib (name "Comparator") (type "KiCad") (uri "${KIPRJMOD}/Footprint/comparator.pretty") (options "") (descr ""))
+	(lib (name "Battery level") (type "KiCad") (uri "${KIPRJMOD}/Footprint/fuel gauge footprints.pretty") (options "") (descr ""))
+	(lib (name "Tactile switch") (type "KiCad") (uri "${KIPRJMOD}/Footprint/Tactile switch.pretty") (options "") (descr ""))
+)

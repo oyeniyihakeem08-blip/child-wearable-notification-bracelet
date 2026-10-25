@@ -1,0 +1,32 @@
+# Child wearable device: what goes into the repo
+/*
+!/3D models/
+!/Child wereble Fabrication files/
+!/Docs/
+!/Footprint/
+!/Symbol/
+
+# Inside Docs: keep only pdf, svg, png, jpeg and jpg, except the project plan
+/Docs/*
+!/Docs/*.pdf
+!/Docs/*.svg
+!/Docs/*.png
+!/Docs/*.jpeg
+!/Docs/*.jpg
+/Docs/PROJECT PLAN CHILD WEARABLE NOTIFICATION SYSTEM .pdf
+
+# Root files to keep
+!/.gitignore
+!/README.md
+!/Child wereable.kicad_pro
+!/Child wereable.kicad_pcb
+!/Child wereable.kicad_sch
+!/fp-lib-table
+!/sym-lib-table
+
+# KiCad junk, anywhere
+.history/
+*.lck
+~*.lck
+*-backups/
+backups/
